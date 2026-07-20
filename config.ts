@@ -176,8 +176,9 @@ export const BATCHES: BatchConfig[] = [
 
          // IP2: {
            // id: "PASTE_SEM2_IP2_REWARD_SHEET_ID",
-           // name: "Semester2_IP2_Rewards"
-         // }
+           //name: "Semester2_IP2_Rewards"
+        //}
+         }
 
         },
 
@@ -215,7 +216,7 @@ export const BATCHES: BatchConfig[] = [
           defaultMaxMarks: {
             Theory: 16,
             Lab: 16,
-            "Lab+Theory": 16
+            "Lab + Theory": 16
           },
 
          departments: {
