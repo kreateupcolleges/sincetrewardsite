@@ -182,7 +182,7 @@ export const BATCHES: BatchConfig[] = [
         },
 
 
-        internalMarksSheets: {
+       /* internalMarksSheets: {
 
        IP1: {
             "MECH": { id: "1sFa25BZDjcdSg0hlixc1g9Nc-2QAmqFodqmbbLBPax4", name: "MECH" },
@@ -193,7 +193,7 @@ export const BATCHES: BatchConfig[] = [
             "AIML": { id: "1uqX_lVAjrzprCmjAMJ7kbZK1wlwVZzu1U88ZMshgr8I", name: "AIML" }
           }
 
-          /*IP2: {
+          IP2: {
 
             "B.Sc CS": {
               id: "PASTE_SEM2_IP2_CS_INTERNAL_SHEET_ID",
@@ -205,20 +205,20 @@ export const BATCHES: BatchConfig[] = [
               name: "B.Sc IT"
             }
 
-          }*/
+          }
 
-        },
+        }, */
 
 
-        subjectConfig: {
+        //subjectConfig: {
 
-          defaultMaxMarks: {
-            Theory: 16,
-            Lab: 16,
-            "Lab+Theory": 16
-          },
+         // defaultMaxMarks: {
+           // Theory: 16,
+           // Lab: 16,
+           // "Lab+Theory": 16
+         // },
 
-          departments: {
+        /*  departments: {
 
             "B.Sc CS": [
     { code: "25BCS2CA", type: "Theory", maxMarks: 15 },
@@ -282,7 +282,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25BCS21T", type: "Theory", maxMarks: 15 },
     { code: "25BCS22E", type: "Theory", maxMarks: 15 }
   ]
-          }
+          }*/
         }
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
