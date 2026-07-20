@@ -207,18 +207,18 @@ export const BATCHES: BatchConfig[] = [
 
           }
 
-        }, */
+        }, 
 
 
-        //subjectConfig: {
+        subjectConfig: {
 
-         // defaultMaxMarks: {
-           // Theory: 16,
-           // Lab: 16,
-           // "Lab+Theory": 16
-         // },
+          defaultMaxMarks: {
+            Theory: 16,
+            Lab: 16,
+            "Lab+Theory": 16
+          },
 
-        /*  departments: {
+         departments: {
 
             "B.Sc CS": [
     { code: "25BCS2CA", type: "Theory", maxMarks: 15 },
