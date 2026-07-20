@@ -84,7 +84,7 @@ export const BATCHES: BatchConfig[] = [
           defaultMaxMarks: {
             Theory: 16,
             Lab: 16,
-            "Lab+Theory": 16
+            "Lab + Theory": 16
           },
           departments: {
 "MECH": [
@@ -95,7 +95,7 @@ export const BATCHES: BatchConfig[] = [
   { code: "CY25C03", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 }
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 }
 ],
 
 "CSE": [
@@ -104,8 +104,8 @@ export const BATCHES: BatchConfig[] = [
   { code: "CS25C06", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
   { code: "PH25C03", type: "Theory", maxMarks: 16 },
-  { code: "CS25C07", type: "Lab+Theory", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 },
+  { code: "CS25C07", type: "Lab + Theory", maxMarks: 16 },
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 }
 ],
 
@@ -114,9 +114,9 @@ export const BATCHES: BatchConfig[] = [
   { code: "EE25C01", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
   { code: "PH25C03", type: "Theory", maxMarks: 16 },
-  { code: "IT25201", type: "Lab+Theory", maxMarks: 16 },
-  { code: "IT25202", type: "Lab+Theory", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 },
+  { code: "IT25201", type: "Lab + Theory", maxMarks: 16 },
+  { code: "IT25202", type: "Lab + Theory", maxMarks: 16 },
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 }
 ],
 
@@ -126,8 +126,8 @@ export const BATCHES: BatchConfig[] = [
   { code: "CS25C06", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
   { code: "PH25C03", type: "Theory", maxMarks: 16 },
-  { code: "AD25201", type: "Lab+Theory", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 },
+  { code: "AD25201", type: "Lab + Theory", maxMarks: 16 },
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 }
 ],
 
@@ -137,18 +137,18 @@ export const BATCHES: BatchConfig[] = [
   { code: "CS25C06", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
   { code: "PH25C03", type: "Theory", maxMarks: 16 },
-  { code: "CS25C07", type: "Lab+Theory", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 },
+  { code: "CS25C07", type: "Lab + Theory", maxMarks: 16 },
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 }
 ],
 
 "ECE": [
   { code: "MA25C02", type: "Theory", maxMarks: 16 },
   { code: "UC25H02", type: "Theory", maxMarks: 16 },
-  { code: "EN25C02", type: "Lab+Theory", maxMarks: 16 },
+  { code: "EN25C02", type: "Lab + Theory", maxMarks: 16 },
   { code: "EC25C01", type: "Theory", maxMarks: 16 },
   { code: "EC25C02", type: "Theory", maxMarks: 16 },
-  { code: "CS25C05", type: "Lab+Theory", maxMarks: 16 },
+  { code: "CS25C05", type: "Lab + Theory", maxMarks: 16 },
   { code: "ME25C05", type: "Lab", maxMarks: 16 },
   { code: "EC25C03", type: "Lab", maxMarks: 16 }
 ]
