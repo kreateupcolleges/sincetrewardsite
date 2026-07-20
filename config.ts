@@ -29,8 +29,8 @@ export const ADMIN_AUTH_CONFIG = {
  *  Sheet containing columns: Email Address, Name, Register No, Department, Password
  */
 export const ELITE_AUTH_CONFIG = {
-  id: "1nIkD73XZ9uykJ_LRJM0GGBJCd73nUh0_xf2-_PGKeVI",
-  name: "Sheet1" 
+  id: "1ch_KtvmuWU7hLaQf7AIGSh1s7F4JIM1DphhLmGo0XBo",
+  name: "SINCET_ELITE_2025-2029_ STUDENTS" 
 };
 
 
@@ -154,8 +154,6 @@ export const BATCHES: BatchConfig[] = [
 ]
           }
         }
-      } 
-    }
   },
 
   //       --- END SEMESTER 1 ---
@@ -195,7 +193,6 @@ export const BATCHES: BatchConfig[] = [
             "AIML": { id: "1uqX_lVAjrzprCmjAMJ7kbZK1wlwVZzu1U88ZMshgr8I", name: "AIML" }
           }
 
-
           /*IP2: {
 
             "B.Sc CS": {
@@ -218,7 +215,7 @@ export const BATCHES: BatchConfig[] = [
           defaultMaxMarks: {
             Theory: 16,
             Lab: 16,
-            "Lab + Theory": 16
+            "Lab+Theory": 16
           },
 
           departments: {
@@ -286,10 +283,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "25BCS22E", type: "Theory", maxMarks: 15 }
   ]
           }
-
         }
-
-
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
   //  1. Copy the entire block below (starting from { id: 'batch-2024-2027', ... }).
@@ -298,9 +292,9 @@ export const BATCHES: BatchConfig[] = [
   //  4. Define the 'semesters' relevant for that batch (e.g., Semester 3, 4).
   //  5. Update the Sheet IDs and Subject Configs for that specific batch.
   // ============================================================================
-
- 
-          }
+      }
+    }
+  }
 ];
 
 export const CATEGORY_CODES = ['CD', 'PCDP', 'SM', 'AC', 'RPA', 'SPL', 'OT'];
