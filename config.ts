@@ -183,7 +183,30 @@ export const BATCHES: BatchConfig[] = [
         },
 
 
-       internalMarksSheets: {}, 
+       internalMarksSheets: {
+         /*IP1: {
+            "MECH": { id: "1sFa25BZDjcdSg0hlixc1g9Nc-2QAmqFodqmbbLBPax4", name: "MECH" },
+            "AIDS": { id: "129zH9nKkd5Veoh4XhzaGENz390AXk1rxPBN_PG3EkNE", name: "AIDS" },
+            "CSE": { id: "14kwixr135-I9iqgA1vM4lml-U1Mo9CIKPgnfCNcLKYY", name: "CSE" },
+            "ECE": { id: "1mdajVYX0uEyKPbYTdcrrgs3joNFKXKZJ-zAVKtqO8ZE", name: "ECE" },
+            "IT": { id: "1vF33LYERn0QlcHnZMpPOE2sEmhv1Z88f-CjCmzPMo1I", name: "IT" },
+            "AIML": { id: "1uqX_lVAjrzprCmjAMJ7kbZK1wlwVZzu1U88ZMshgr8I", name: "AIML" }
+          }
+
+          IP2: {
+
+            "B.Sc CS": {
+              id: "PASTE_SEM2_IP2_CS_INTERNAL_SHEET_ID",
+              name: "B.Sc CS"
+            },
+
+            "B.Sc IT": {
+              id: "PASTE_SEM2_IP2_IT_INTERNAL_SHEET_ID",
+              name: "B.Sc IT"
+            }
+
+          }*/
+       }, 
 
 
         subjectConfig: {
@@ -194,7 +217,71 @@ export const BATCHES: BatchConfig[] = [
             "Lab + Theory": 16
           },
 
-         departments: {}
+         departments: {
+          /* "B.Sc CS": [
+    { code: "25BCS2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BCS2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ],
+
+  "B.Sc  CS with AI": [
+    { code: "25BAR2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BAR2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BAR2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BAR2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ],
+
+  "B.Sc  AIML": [
+    { code: "25BAM2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BAM2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BAM2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BAM2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ],
+
+  "B.Sc DSA": [
+    { code: "25BDA2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BDA2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BDA2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BDA2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ],
+
+  "B.Sc DS": [
+    { code: "25BDS2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BDS2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BDS2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BDS2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ],
+
+  "B.Sc IT": [
+    { code: "25BIT2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BIT2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BIT2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BIT2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+    
+  ],
+  "B.Sc DCFS": [
+    { code: "25BDC2CA", type: "Theory", maxMarks: 15 },
+    { code: "25BDC2CP", type: "Lab", maxMarks: 15 },
+    { code: "25BDC2AA", type: "Theory", maxMarks: 15 },
+    { code: "25BDC2EA", type: "Theory", maxMarks: 15 },
+    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
+    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  ] */
+
+         }
         }
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
