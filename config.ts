@@ -301,10 +301,6 @@ export const BATCHES: BatchConfig[] = [
 
  
           }
-        }
-      }
-    }
-  }
 ];
 
 export const CATEGORY_CODES = ['CD', 'PCDP', 'SM', 'AC', 'RPA', 'SPL', 'OT'];
