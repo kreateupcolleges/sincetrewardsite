@@ -193,6 +193,7 @@ export const BATCHES: BatchConfig[] = [
             "AIML": { id: "1uqX_lVAjrzprCmjAMJ7kbZK1wlwVZzu1U88ZMshgr8I", name: "AIML" }
           }
 
+
           IP2: {
 
             "B.Sc CS": {
