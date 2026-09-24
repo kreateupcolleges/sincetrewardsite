@@ -327,7 +327,7 @@ export const AdminPortal: React.FC<Props> = ({
 
         if (targetDept) {
             for (const ipId of targetIPs) {
-              const sheetConfig = semConfig?.internalMarksSheets[ipId]?.[targetDept];
+              const sheetConfig = semConfig?.internalMarksSheets?.[ipId]?.[targetDept];
               if (sheetConfig) {
                 try {
                     const { headers: iHeaders, rows: iRows } = await fetchSheetData(sheetConfig);
