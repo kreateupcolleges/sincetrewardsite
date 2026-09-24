@@ -174,10 +174,10 @@ export const BATCHES: BatchConfig[] = [
             name: "SINCET_2025-2029_All_S3_IP1_RewardSplit"
           },
 
-         // IP2: {
-           // id: "PASTE_SEM2_IP2_REWARD_SHEET_ID",
-           //name: "Semester2_IP2_Rewards"
-        //}
+        //  IP2: {
+        //    id: "PASTE_SEM2_IP2_REWARD_SHEET_ID",
+        //    name: "Semester2_IP2_Rewards"
+        // }
          }
 
         },
