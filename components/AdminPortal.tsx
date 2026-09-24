@@ -530,7 +530,7 @@ export const AdminPortal: React.FC<Props> = ({
          }
 
          // Internal Marks Parsing
-         const sheetConfig = semConfig.internalMarksSheets[ipId]?.[dept];
+         const sheetConfig = semConfig?.internalMarksSheets?.[ipId]?.[dept];
          if (sheetConfig) {
             try {
                const { headers: iHeaders, rows: iRows } = await fetchSheetData(sheetConfig);
