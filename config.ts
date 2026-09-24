@@ -51,7 +51,7 @@ export const BATCHES: BatchConfig[] = [
     semesters: {
       "1": { 
         label: "Semester 2", 
-        internals: ["IP1", "IP2"],
+        internals: ["IP1"],
         
         // --- SEMESTER 1 SHEETS ---
         rewardSheets: {
@@ -165,7 +165,7 @@ export const BATCHES: BatchConfig[] = [
 
         label: "Semester 3",
 
-        internals: ["IP1", "IP2"],
+        internals: ["IP1"],
 
         rewardSheets: {
 
