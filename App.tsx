@@ -183,7 +183,7 @@ const AppContent: React.FC = () => {
     
     // Trigger Internal Marks Load
     if (student && deptHeader && regHeader) {
-      const sDept = String(student[deptHeader]);
+      const sDept = String(student[deptHeader]).trim().toUpperCase();
       const sReg = String(student[regHeader]);
       
       if (params.internalId !== 'Consolidated') {
@@ -242,7 +242,8 @@ const AppContent: React.FC = () => {
       const batch = BATCHES.find(b => b.id === params.batchId);
       const semConfig = batch?.semesters[params.semesterId];
       
-    const sheetConfig = semConfig?.internalMarksSheets?.[params.internalId]?.[dept];
+    const sheetConfig =
+  semConfig?.internalMarksSheets?.[params.internalId]?.[String(dept).trim().toUpperCase()];
       
       if (!sheetConfig) {
         setInternalError('No internal marks sheet configured for this department in this scope.');
