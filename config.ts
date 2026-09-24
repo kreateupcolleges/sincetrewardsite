@@ -184,17 +184,17 @@ export const BATCHES: BatchConfig[] = [
 
 
        internalMarksSheets: {
-         /*IP1: {
-            "MECH": { id: "1sFa25BZDjcdSg0hlixc1g9Nc-2QAmqFodqmbbLBPax4", name: "MECH" },
-            "AIDS": { id: "129zH9nKkd5Veoh4XhzaGENz390AXk1rxPBN_PG3EkNE", name: "AIDS" },
-            "CSE": { id: "14kwixr135-I9iqgA1vM4lml-U1Mo9CIKPgnfCNcLKYY", name: "CSE" },
-            "ECE": { id: "1mdajVYX0uEyKPbYTdcrrgs3joNFKXKZJ-zAVKtqO8ZE", name: "ECE" },
-            "IT": { id: "1vF33LYERn0QlcHnZMpPOE2sEmhv1Z88f-CjCmzPMo1I", name: "IT" },
-            "AIML": { id: "1uqX_lVAjrzprCmjAMJ7kbZK1wlwVZzu1U88ZMshgr8I", name: "AIML" }
+         IP1: {
+            "MECH": { id: "1xGbo6hw7wck55r5sq1Lfg2nPm98KQn9ckscNa5RynyI", name: "MECH" },
+            "AIDS": { id: "11H40uXibHo2NChuk-WLYGur617U2OP0lcAHYLPrYPZ8", name: "AIDS" },
+            "CSE": { id: "1jYxGY_Y7dXbIvqSSbTF32SLahWdRTyA-UWHWnEzEQVk", name: "CSE" },
+            "ECE": { id: "1badONImsnCp2GvV2QkeglXveJejk-ZAl4qB2az_uxXk", name: "ECE" },
+            "IT": { id: "1iv2pUmMTrCo-xTlFsx8eGy2sUmcUJpvZTWbe4_BTrP4", name: "IT" },
+            "AIML": { id: "1yd-ZF63rXESz6FwFv4yqURhSJm8Qmy0nXrAK30Ou_PE", name: "AIML" }
           }
 
 
-          IP2: {
+          /*IP2: {
 
             "B.Sc CS": {
               id: "PASTE_SEM2_IP2_CS_INTERNAL_SHEET_ID",
@@ -213,74 +213,68 @@ export const BATCHES: BatchConfig[] = [
         subjectConfig: {
 
           defaultMaxMarks: {
-            Theory: 16,
-            Lab: 16,
-            "Lab + Theory": 16
+            Theory: 8,
+            Lab: 8,
+            "Lab + Theory": 8
           },
 
          departments: {
-          /* "B.Sc CS": [
-    { code: "25BCS2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BCS2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+        "CSE": [
+    { code: "MA25C08", type: "Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C10", type: "Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
-  "B.Sc  CS with AI": [
-    { code: "25BAR2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BAR2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BAR2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BAR2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  "IT": [
+    { code: "MA25C08", type: "Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C07", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CW25201", type: "Theory", maxMarks: 8 },
+    { code: "IT25301", type: "Lab+Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
-  "B.Sc  AIML": [
-    { code: "25BAM2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BAM2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BAM2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BAM2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  "MECH": [
+    { code: "MA25C03", type: "Theory", maxMarks: 8 },
+    { code: "ME25C07", type: "Theory", maxMarks: 8 },
+    { code: "ME25301", type: "Theory", maxMarks: 8 },
+    { code: "CE25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "ME25C08", type: "Theory", maxMarks: 8 },
+    { code: "EC25C17", type: "Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
-  "B.Sc DSA": [
-    { code: "25BDA2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BDA2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BDA2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BDA2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  "AIML": [
+    { code: "MA25C08", type: "Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C10", type: "Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
-  "B.Sc DS": [
-    { code: "25BDS2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BDS2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BDS2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BDS2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
+  "AIDS": [
+    { code: "MA25C08", type: "Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
+    { code: "AD25C01", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab+Theory", maxMarks: 8 }
   ],
 
-  "B.Sc IT": [
-    { code: "25BIT2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BIT2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BIT2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BIT2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
-    
-  ],
-  "B.Sc DCFS": [
-    { code: "25BDC2CA", type: "Theory", maxMarks: 15 },
-    { code: "25BDC2CP", type: "Lab", maxMarks: 15 },
-    { code: "25BDC2AA", type: "Theory", maxMarks: 15 },
-    { code: "25BDC2EA", type: "Theory", maxMarks: 15 },
-    { code: "25BCS21T", type: "Theory", maxMarks: 15 },
-    { code: "25BCS22E", type: "Theory", maxMarks: 15 }
-  ] */
+  "ECE": [
+    { code: "MA25C05", type: "Theory", maxMarks: 8 },
+    { code: "EC25C04", type: "Theory", maxMarks: 8 },
+    { code: "EC25C05", type: "Theory", maxMarks: 8 },
+    { code: "EC25C06", type: "Theory", maxMarks: 8 },
+    { code: "EC25C07", type: "Theory", maxMarks: 8 },
+    { code: "EC25C08", type: "Lab", maxMarks: 8 },
+    { code: "EC25C09", type: "Lab", maxMarks: 8 },
+    { code: "EC25C03", type: "Lab", maxMarks: 8 }
+  ]
 
          }
         }
