@@ -242,7 +242,7 @@ const AppContent: React.FC = () => {
       const batch = BATCHES.find(b => b.id === params.batchId);
       const semConfig = batch?.semesters[params.semesterId];
       
-      const sheetConfig = semConfig?.internalMarksSheets[params.internalId]?.[dept];
+    const sheetConfig = semConfig?.internalMarksSheets?.[params.internalId]?.[dept];
       
       if (!sheetConfig) {
         setInternalError('No internal marks sheet configured for this department in this scope.');
@@ -301,7 +301,7 @@ const AppContent: React.FC = () => {
               }
           }
           
-          const iConfig = semConfig.internalMarksSheets[id]?.[dept];
+          const iConfig = semConfig?.internalMarksSheets?.[id]?.[dept];
           if (iConfig) {
               const { headers: ih, rows: ir } = await fetchSheetData(iConfig);
               const regH = ih.find(h => /register|reg no|roll/i.test(h));
