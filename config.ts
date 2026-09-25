@@ -178,9 +178,7 @@ export const BATCHES: BatchConfig[] = [
         //    id: "PASTE_SEM2_IP2_REWARD_SHEET_ID",
         //    name: "Semester2_IP2_Rewards"
         // }
-         }
-
-        },
+         },
 
 
        internalMarksSheets: {
@@ -221,19 +219,19 @@ export const BATCHES: BatchConfig[] = [
          departments: {
         "CSE": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
-    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
-    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab + Theory", maxMarks: 8 },
     { code: "CS25C10", type: "Theory", maxMarks: 8 },
-    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab + Theory", maxMarks: 8 },
     { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
   "IT": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
-    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
-    { code: "CS25C07", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
+    { code: "CS25C07", type: "Lab + Theory", maxMarks: 8 },
     { code: "CW25201", type: "Theory", maxMarks: 8 },
-    { code: "IT25301", type: "Lab+Theory", maxMarks: 8 },
+    { code: "IT25301", type: "Lab + Theory", maxMarks: 8 },
     { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
@@ -241,7 +239,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "MA25C03", type: "Theory", maxMarks: 8 },
     { code: "ME25C07", type: "Theory", maxMarks: 8 },
     { code: "ME25301", type: "Theory", maxMarks: 8 },
-    { code: "CE25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CE25C11", type: "Lab + Theory", maxMarks: 8 },
     { code: "ME25C08", type: "Theory", maxMarks: 8 },
     { code: "EC25C17", type: "Theory", maxMarks: 8 },
     { code: "EN25C03", type: "Lab", maxMarks: 8 }
@@ -249,20 +247,20 @@ export const BATCHES: BatchConfig[] = [
 
   "AIML": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
-    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
-    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab + Theory", maxMarks: 8 },
     { code: "CS25C10", type: "Theory", maxMarks: 8 },
-    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab + Theory", maxMarks: 8 },
     { code: "EN25C03", type: "Lab", maxMarks: 8 }
   ],
 
   "AIDS": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
-    { code: "CS25C08", type: "Lab+Theory", maxMarks: 8 },
-    { code: "CS25C09", type: "Lab+Theory", maxMarks: 8 },
-    { code: "AD25C01", type: "Lab+Theory", maxMarks: 8 },
-    { code: "CS25C11", type: "Lab+Theory", maxMarks: 8 },
-    { code: "EN25C03", type: "Lab+Theory", maxMarks: 8 }
+    { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
+    { code: "CS25C09", type: "Lab + Theory", maxMarks: 8 },
+    { code: "AD25C01", type: "Lab + Theory", maxMarks: 8 },
+    { code: "CS25C11", type: "Lab + Theory", maxMarks: 8 },
+    { code: "EN25C03", type: "Lab + Theory", maxMarks: 8 }
   ],
 
   "ECE": [
@@ -278,6 +276,7 @@ export const BATCHES: BatchConfig[] = [
 
          }
         }
+      }
   // ============================================================================
   //  INSTRUCTIONS FOR ADDING A NEW BATCH
   //  1. Copy the entire block below (starting from { id: 'batch-2024-2027', ... }).
