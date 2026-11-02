@@ -165,7 +165,7 @@ export const BATCHES: BatchConfig[] = [
 
         label: "Semester 3",
 
-        internals: ["IP1"],
+        internals: ["IP1","IP2"],
 
         rewardSheets: {
 
