@@ -192,19 +192,11 @@ export const BATCHES: BatchConfig[] = [
           }
 
 
-          /*IP2: {
-
-            "B.Sc CS": {
-              id: "PASTE_SEM2_IP2_CS_INTERNAL_SHEET_ID",
-              name: "B.Sc CS"
-            },
-
-            "B.Sc IT": {
-              id: "PASTE_SEM2_IP2_IT_INTERNAL_SHEET_ID",
-              name: "B.Sc IT"
-            }
-
-          }*/
+          IP2: {
+              id: "1AbUPx-IImOXe3UcRE8CvJW4_VSBTjovOyLZ1VRMNl4I",
+            name: "SINCET_2025-2029_All_S3_IP2_RewardSplit"
+            
+          }
        }, 
 
 
@@ -217,7 +209,7 @@ export const BATCHES: BatchConfig[] = [
           },
 
          departments: {
-        "CSE": [
+       /* "CSE": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
     { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
     { code: "CS25C09", type: "Lab + Theory", maxMarks: 8 },
@@ -272,7 +264,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "EC25C08", type: "Lab", maxMarks: 8 },
     { code: "EC25C09", type: "Lab", maxMarks: 8 },
     { code: "EC25C03", type: "Lab", maxMarks: 8 }
-  ]
+  ]*/
 
          }
         }
