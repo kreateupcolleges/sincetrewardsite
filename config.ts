@@ -192,11 +192,15 @@ export const BATCHES: BatchConfig[] = [
           }
 
 
-          IP2: {
-            //   id: "1AbUPx-IImOXe3UcRE8CvJW4_VSBTjovOyLZ1VRMNl4I",
-            // name: "SINCET_2025-2029_All_S3_IP2_RewardSplit"
+          // IP2: {
+          //     "MECH": { id: "1xGbo6hw7wck55r5sq1Lfg2nPm98KQn9ckscNa5RynyI", name: "MECH" },
+            // "AIDS": { id: "11H40uXibHo2NChuk-WLYGur617U2OP0lcAHYLPrYPZ8", name: "AIDS" },
+            // "CSE": { id: "1jYxGY_Y7dXbIvqSSbTF32SLahWdRTyA-UWHWnEzEQVk", name: "CSE" },
+            // "ECE": { id: "1badONImsnCp2GvV2QkeglXveJejk-ZAl4qB2az_uxXk", name: "ECE" },
+            // "IT": { id: "1iv2pUmMTrCo-xTlFsx8eGy2sUmcUJpvZTWbe4_BTrP4", name: "IT" },
+            // "AIML": { id: "1yd-ZF63rXESz6FwFv4yqURhSJm8Qmy0nXrAK30Ou_PE", name: "AIML" }
             
-          }
+          // }
        }, 
 
 
