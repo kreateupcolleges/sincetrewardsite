@@ -286,4 +286,5 @@ export const BATCHES: BatchConfig[] = [
 ];
 
 export const CATEGORY_CODES = ['CD', 'PCDP', 'SM', 'AC', 'RPA', 'SPL', 'OT'];
-export const SYSTEM_HEADER_LABELS = ["email address", "name", "register no", "department", "total"];
+// Non-reward columns: excluded from RP sums. "elite status" is a 0/1 flag, not points.
+export const SYSTEM_HEADER_LABELS = ["email address", "name", "register no", "department", "total", "elite status"];

@@ -43,6 +43,17 @@ export const fetchSheetData = async (config: SheetConfig): Promise<{ headers: st
           headers = json.table.cols.map((col: any) => col?.label || "").map((h: string) => h.trim());
       }
 
+      // Make duplicate header labels unique. Otherwise the later column overwrites the
+      // earlier one in each row object, and that value gets summed twice. Zero-width
+      // spaces keep the displayed label unchanged (normalizeLabel strips them).
+      const seen = new Map<string, number>();
+      headers = headers.map(h => {
+          if (!h) return h;
+          const n = seen.get(h) || 0;
+          seen.set(h, n + 1);
+          return n === 0 ? h : h + '​'.repeat(n);
+      });
+
       const validHeaderIndices: number[] = [];
       headers.forEach((h, i) => { if (h && h.length > 0) validHeaderIndices.push(i); });
 
