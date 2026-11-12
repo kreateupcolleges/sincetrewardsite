@@ -189,18 +189,17 @@ export const BATCHES: BatchConfig[] = [
             "ECE": { id: "1badONImsnCp2GvV2QkeglXveJejk-ZAl4qB2az_uxXk", name: "ECE" },
             "IT": { id: "1iv2pUmMTrCo-xTlFsx8eGy2sUmcUJpvZTWbe4_BTrP4", name: "IT" },
             "AIML": { id: "1yd-ZF63rXESz6FwFv4yqURhSJm8Qmy0nXrAK30Ou_PE", name: "AIML" }
+          },
+
+
+          IP2: {
+              "MECH": { id: "13Uh9M-hfpLW6BpCF0ZCHL8EF67zs3QI8UXgHb1oKYIw", name: "MECH" },
+            "AIDS": { id: "1VmiIFWzxqTRAnLkscFhXMw7-9Q0ZyJwvyDL105c08Tk", name: "AIDS" },
+            "CSE": { id: "1tTJYbF4w0XIuldAJTiml_3kZs_MVN-5s_MeSKWye9sc", name: "CSE" },
+            "ECE": { id: "18ZoHCIDU6BCfAxfziMsAdZU5IzDyIjbUU2ka7STTse0", name: "ECE" },
+            "IT": { id: "1TLWa_tx-i-xjRInHkfL6vEl8IMticI-oXJRjMKi5hvU", name: "IT" },
+            "AIML": { id: "1nqi5qITlptNNeEF8levN5qZN0cuVO8F8oIszbDmOF54", name: "AIML" }
           }
-
-
-          // IP2: {
-          //     "MECH": { id: "1xGbo6hw7wck55r5sq1Lfg2nPm98KQn9ckscNa5RynyI", name: "MECH" },
-            // "AIDS": { id: "11H40uXibHo2NChuk-WLYGur617U2OP0lcAHYLPrYPZ8", name: "AIDS" },
-            // "CSE": { id: "1jYxGY_Y7dXbIvqSSbTF32SLahWdRTyA-UWHWnEzEQVk", name: "CSE" },
-            // "ECE": { id: "1badONImsnCp2GvV2QkeglXveJejk-ZAl4qB2az_uxXk", name: "ECE" },
-            // "IT": { id: "1iv2pUmMTrCo-xTlFsx8eGy2sUmcUJpvZTWbe4_BTrP4", name: "IT" },
-            // "AIML": { id: "1yd-ZF63rXESz6FwFv4yqURhSJm8Qmy0nXrAK30Ou_PE", name: "AIML" }
-            
-          // }
        }, 
 
 
@@ -213,7 +212,7 @@ export const BATCHES: BatchConfig[] = [
           },
 
          departments: {
-       /* "CSE": [
+  "CSE": [
     { code: "MA25C08", type: "Theory", maxMarks: 8 },
     { code: "CS25C08", type: "Lab + Theory", maxMarks: 8 },
     { code: "CS25C09", type: "Lab + Theory", maxMarks: 8 },
@@ -268,7 +267,7 @@ export const BATCHES: BatchConfig[] = [
     { code: "EC25C08", type: "Lab", maxMarks: 8 },
     { code: "EC25C09", type: "Lab", maxMarks: 8 },
     { code: "EC25C03", type: "Lab", maxMarks: 8 }
-  ]*/
+  ]
 
          }
         }
